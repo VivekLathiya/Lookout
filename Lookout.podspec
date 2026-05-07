@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Lookout"
-  spec.version      = "0.0.1"
-  spec.summary      = "A lightweight SwiftUI inspector."
+  spec.version      = "0.0.2"
+  spec.summary      = "A lightweight SwiftUI inspector for debugging layouts."
   spec.source           = { :git => '', :tag => spec.version.to_s }
 
   # This description is used to generate tags and improve search results.
@@ -26,6 +26,8 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  Lookout is a developer tool that provides on-device visual debugging for SwiftUI views.
+  It allows you to inspect frames, alignment, and dimensions with a simple view modifier.
                    DESC
 
   spec.homepage     = "https://github.com/VivekLathiya/Lookout"
@@ -39,7 +41,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
